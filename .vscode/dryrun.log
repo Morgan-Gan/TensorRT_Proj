@@ -1,0 +1,256 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/os/window_share/ganhaiyang/Alg_Proj/Deployment_Proj/tensorRT_Pro-main'
+ 
+Compile depends CUDA src/tensorRT/onnxplugin/plugins/DCNv2.cu
+ 
+In file included from src/tensorRT/onnxplugin/plugins/DCNv2.cu:3:0:
+src/tensorRT/onnxplugin/onnxplugin.hpp:9:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CUDA src/tensorRT/onnxplugin/plugins/HSwish.cu
+ 
+In file included from src/tensorRT/onnxplugin/plugins/HSwish.cu:2:0:
+src/tensorRT/onnxplugin/onnxplugin.hpp:9:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CUDA src/tensorRT/onnxplugin/plugins/HSigmoid.cu
+ 
+In file included from src/tensorRT/onnxplugin/plugins/HSigmoid.cu:2:0:
+src/tensorRT/onnxplugin/onnxplugin.hpp:9:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CUDA src/tensorRT/onnxplugin/plugins/ScatterND.cu
+ 
+In file included from src/tensorRT/onnxplugin/plugins/ScatterND.cu:2:0:
+src/tensorRT/onnxplugin/onnxplugin.hpp:9:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CXX src/direct/direct_mae.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/direct/direct_mae.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/direct/direct_classifier.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/direct/direct_classifier.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/direct/direct_yolo.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/direct/direct_yolo.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/direct/direct_unet.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/direct/direct_unet.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo_gpuptr.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo_gpuptr.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_fall_recognize.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_fall_recognize.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_alphapose/alpha_pose.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_alphapose/alpha_pose.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/test_warpaffine.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/test_warpaffine.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_scrfd.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_scrfd.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_centernet/centernet.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_centernet/centernet.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo_gpuptr/yolo_gpuptr.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo_gpuptr/yolo_gpuptr.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_arcface.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_arcface.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo_fast.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo_fast.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_arcface/arcface.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_arcface/arcface.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_fall_gcn/fall_gcn.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_fall_gcn/fall_gcn.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_centernet.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_centernet.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo/yolo.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo/yolo.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo/multi_gpu.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo/multi_gpu.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_retinaface.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_retinaface.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_dbface.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_dbface.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_alphapose.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_alphapose.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_high_performance/alpha_pose_high_perf.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_high_performance/alpha_pose_high_perf.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_high_performance/yolo_high_perf.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_high_performance/yolo_high_perf.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_dbface/dbface.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_dbface/dbface.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_lesson.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_lesson.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/tools/zmq_remote_show.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/tools/zmq_remote_show.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/tools/deepsort.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/tools/deepsort.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_alphapose_old/alpha_pose_old.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_alphapose_old/alpha_pose_old.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_scrfd/scrfd.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_scrfd/scrfd.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_high_performance.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_high_performance.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_bert.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_bert.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_yolo_fast/yolo_fast.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_yolo_fast/yolo_fast.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_retinaface/retinaface.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_retinaface/retinaface.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/test_yolo_map.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/test_yolo_map.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/application/app_plugin.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/application/app_plugin.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/tensorRT/infer/trt_infer.cpp
+ 
+src/tensorRT/infer/trt_infer.cpp:6:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CXX src/tensorRT/onnxplugin/onnxplugin.cpp
+ 
+In file included from src/tensorRT/onnxplugin/onnxplugin.cpp:2:0:
+src/tensorRT/onnxplugin/onnxplugin.hpp:9:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CXX src/tensorRT/common/trt_tensor.cpp
+ 
+<built-in>: fatal error: opening dependency file objs/tensorRT/common/trt_tensor.cpp.mk: Permission denied
+compilation terminated.
+
+Compile depends CXX src/tensorRT/builder/trt_builder.cpp
+ 
+src/tensorRT/builder/trt_builder.cpp:6:10: fatal error: NvInfer.h: No such file or directory
+ #include <NvInfer.h>
+          ^~~~~~~~~~~
+compilation terminated.
+
+Compile depends CXX src/tensorRT/onnx_parser/builtin_op_importers.cpp
+ 
+In file included from src/tensorRT/onnx_parser/onnx2trt.hpp:7:0,
+                 from src/tensorRT/onnx_parser/builtin_op_importers.hpp:7,
+                 from src/tensorRT/onnx_parser/builtin_op_importers.cpp:5:
+src/tensorRT/onnx_parser/NvOnnxParser.h:8:10: fatal error: NvInfer.h: No such file or directory
+ #include "NvInfer.h"
+          ^~~~~~~~~~~
+compilation terminated.
+
+make: 'objs/tensorRT/import_lib.cpp.o' is up to date.
+ 
+make: Leaving directory '/home/os/window_share/ganhaiyang/Alg_Proj/Deployment_Proj/tensorRT_Pro-main'
+ 
